@@ -540,6 +540,7 @@
 			if (options.onChange) {
 				options.onChange();
 			}
+			calendar.scrollToRangeStart();
 			instance._trigger('change', event, {instance: instance});
 		}
 
